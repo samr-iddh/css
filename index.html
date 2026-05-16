@@ -1,61 +1,30 @@
 <html>
     <head>
-        <title>tast bites-activity</title>
-        <style>
-            body{ font-family: Arial, Helvetica, sans-serif; background-color: blueviolet;padding: 10px;}
-            h1{color: #eb5d04;text-align: center;}
-            h2{color: #eb5d04;margin-top: 38px;}
-            p{color: #555;margin-bottom: 18px;}
-            .renu-item{
-                background: #ffe8d0;
-                border: 2px solid#e85d04;
-                padding: 10px 20px;
-                margin: 8px 0;
-                width: 200px;
+        <title>bootstrap grid sysem</title>
+           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+           <style>
+            .col{
+                text-allign:center;
+                border: 1px solid black;
             }
-            .compare-wrap{display: flex;gap: 30px;margin-top: 10px;}
-            .compare-col{flex: 1;}
-            .compare-col p{font-size: 12px;color: #a0522d;margin-bottom: 6px;}
-            .special-badge{
-                background: #e85d04;
-                color: wheat;
-                padding: 10px 20px;
-                margin: 8px 0;
-                width: 200px;
-                position: relative;
-                left: 40px;
-            }
-            .reserved{
-                border: 2px dashed #e85d04;
-                padding: 10px 20px;
-                width: 200px;
-                margin: 8px 0;
-                color: #e85d04;
-            }
-        </style>
+           </style>
     </head>
     <body>
-        <h1>&#127829; tasty bites menue</h1>
-         <h2>static positioning</h2>
-         <p>elements sit in normal flow-one after another,top to bottom.</p>
-         <div class="menu-item">&#127829; pizza-$8.99</div>
-         <div class="menu-item">&#127829; burger-$6.99</div>
-         <div class="menu-item">&#127829; sandwich-$5.49</div>
-         <h2> relative positioning</h2>
-         <p>the element shifts from where it normally sits. its orignal space stays reserved</p>
-         <div class="menu-item">&#127829; pizza-$8.99</div>
-         <div class="menu-items" style="background: #e85d04;color: wheat;">&#127829; chefs special</div>
-         <div class="menu item">&#127829; sandwich-$5.49</div>
-         <div class="compare-col">
-            <p>with positioning: relative left: 40px:</p>
-            <div class="menu-item">$#127829; pizza-$8.99</div>
-            <div class="reserved">$#127829; orignal space reserved</div>
-            <div class="special-badge">$#127829; chef's special</div>
-            <div class="menu-item">$#127829; sandwich-$5.99</div>
-            
-            
-         </div>
-         
-         
+        <h3>equal width coloumn grid</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    column 1
+                    
+                        </div>
+                        <div class="col">
+                        column 2
+                        
+                    </div>
+                    <div class="col">
+                            column 3
+                </div>
+            </div>
+        </div>
     </body>
 </html>
