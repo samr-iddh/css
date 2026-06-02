@@ -1,70 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>My Nature Explorer Page</title>
-
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-
-<body>
-
-  <!-- container-fluid: full-width header -->
-  <div class="container-fluid bg-success text-white p-4">
-    <h1>My Nature Explorer Page</h1>
-    <p>Explore forests, rivers, mountains, and wildlife through this nature-themed webpage.</p>
-  </div>
-
-  <!-- container: keeps content centered and neat -->
+<body class="container">
   <div class="container">
-
-    <!-- my-3: adds vertical spacing, p-3: adds padding -->
-    <div class="bg-info text-white p-3 my-3 border border-dark">
-      <h2>Forest Adventure</h2>
-      <p>
-        Forests are full of trees, animals, birds, and fresh air. They help keep our planet healthy.
-      </p>
+    <h2>Carousel Example</h2>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="pic.jpg" alt="Los Angeles" style="width:100%;">
+        </div>
+        <div class="item">
+          <img src="pic1.jpg" alt="Chicago" style="width:100%;">
+        </div>
+      </div>
     </div>
-
-    <div class="bg-primary text-white p-3 my-3 border border-dark">
-      <h2>River Journey</h2>
-      <p>
-        Rivers provide water for people, plants, and animals. They also make beautiful natural landscapes.
-      </p>
+  </div>
+  <body class="container">
+  <div class="container">
+    <h2>Carousel Example</h2>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="pic.jpg" alt="Los Angeles" style="width:100%;">
+        </div>
+        <div class="item">
+          <img src="pic1.jpg" alt="Chicago" style="width:100%;">
+        </div>
+      </div>
     </div>
-
-    <div class="bg-warning p-3 my-3 border border-dark">
-      <h2>Mountain View</h2>
-      <p>
-        Mountains are tall landforms that give us amazing views and are home to many unique plants and animals.
-      </p>
-    </div>
-
-    <div class="bg-danger text-white p-3 my-3 border border-dark">
-      <h2>Wildlife Zone</h2>
-      <p>
-        Wildlife includes animals living freely in nature. We should protect their homes and keep nature safe.
-      </p>
-    </div>
-
-    <div class="bg-light p-3 my-3 border border-success">
-      <h2>Nature Explorer Checklist</h2>
-      <ul>
-        <li>Observe plants carefully</li>
-        <li>Do not disturb animals</li>
-        <li>Keep the environment clean</li>
-        <li>Carry a water bottle</li>
-      </ul>
-    </div>
-
   </div>
 
-  <!-- container-fluid: full-width footer -->
-  <div class="container-fluid bg-dark text-white p-3 my-3">
-    <p>Nature Tip: Protecting nature means protecting our future.</p>
-  </div>
 
 </body>
+
 </html>
